@@ -1,0 +1,7 @@
+variant,set,Logistic regression,Linear SVM,Random forest,Gradient boosting,Neural network
+HI-Small,A,4.0,5.0,2.0,1.0,3.0
+HI-Small,B,4.0,5.0,2.0,1.0,3.0
+HI-Small,C,4.0,5.0,2.0,1.0,3.0
+LI-Small,A,5.0,4.0,2.0,1.0,3.0
+LI-Small,B,4.0,5.0,3.0,1.0,2.0
+LI-Small,C,4.0,5.0,3.0,1.0,2.0

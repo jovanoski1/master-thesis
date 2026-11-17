@@ -1,0 +1,11 @@
+variant,family,A,B,C
+HI-Small,Logistic regression,0.020 (0.002),0.018 (0.001),0.031 (0.004)
+HI-Small,Linear SVM,0.021 (0.007),0.019 (0.006),0.067 (0.038)
+HI-Small,Random forest,0.122 (0.015),0.160 (0.021),0.166 (0.007)
+HI-Small,Gradient boosting,0.106 (0.006),0.326 (0.039),0.345 (0.034)
+HI-Small,Neural network,0.057 (0.016),0.116 (0.013),0.113 (0.022)
+LI-Small,Logistic regression,0.004 (0.002),0.011 (0.002),0.007 (0.000)
+LI-Small,Linear SVM,0.005 (0.002),0.008 (0.003),0.006 (0.001)
+LI-Small,Random forest,0.025 (0.005),0.027 (0.003),0.032 (0.002)
+LI-Small,Gradient boosting,0.025 (0.004),0.059 (0.006),0.073 (0.036)
+LI-Small,Neural network,0.013 (0.001),0.032 (0.004),0.042 (0.005)

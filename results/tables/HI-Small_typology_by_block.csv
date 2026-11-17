@@ -1,0 +1,11 @@
+typology,train,val,test,total
+bipartite,166,35,62,263
+cycle,140,51,96,287
+fan-in,152,44,122,318
+fan-out,172,41,129,342
+gather-scatter,267,70,379,716
+random,87,22,82,191
+scatter-gather,298,93,235,626
+stack,247,105,114,466
+no pattern,1327,299,342,1968
+total,2856,760,1561,5177

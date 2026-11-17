@@ -1,0 +1,30 @@
+{
+  "timing": {
+    "seconds_per_search_fit": {
+      "logreg": 15.2,
+      "svm": 12.9,
+      "rf": 18.6,
+      "hgb": 52.0,
+      "ffnn": 45.4
+    }
+  },
+  "projection": {
+    "candidates": {
+      "logreg": 20.0,
+      "svm": 20.0,
+      "rf": 10.0,
+      "hgb": 10.0,
+      "ffnn": 8.0,
+      "total": 68.0
+    },
+    "projected_hours": {
+      "logreg": 0.86,
+      "svm": 0.73,
+      "rf": 0.79,
+      "hgb": 2.21,
+      "ffnn": 1.8,
+      "total": 6.41
+    }
+  },
+  "recorded": "2026-11-12T12:38:44.885777"
+}

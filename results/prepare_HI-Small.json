@@ -1,0 +1,91 @@
+{
+  "variant": "HI-Small",
+  "integrity": {
+    "n_records": 5078345,
+    "n_laundering": 5177,
+    "observed_ratio_1_in": 980.9,
+    "published": {
+      "transactions": 5000000,
+      "laundering": 3600,
+      "ratio_1_in": 981
+    },
+    "dev_records": 0.0157,
+    "dev_laundering": 0.4381,
+    "dev_ratio": -0.0001,
+    "n_unparsed_timestamps": 0,
+    "timestamp_non_decreasing": true,
+    "n_duplicate_records": 9,
+    "n_nonpositive_amount_paid": 0,
+    "first_timestamp": "2022-09-01 00:00:00",
+    "last_timestamp": "2022-09-18 16:18:00",
+    "span_days": 17.679,
+    "checks": {
+      "records_match_table_4_1": true,
+      "laundering_matches_table_4_1": false,
+      "ratio_matches_table_4_1": true,
+      "timestamps_parsed_and_ordered": true,
+      "no_duplicate_records": false
+    }
+  },
+  "patterns": {
+    "n_pattern_rows": 3209,
+    "n_attempts": 370,
+    "attempts_by_typology": {
+      "cycle": 54,
+      "gather-scatter": 51,
+      "bipartite": 49,
+      "fan-out": 48,
+      "scatter-gather": 44,
+      "stack": 43,
+      "random": 41,
+      "fan-in": 40
+    },
+    "unknown_typology_labels": [],
+    "n_pattern_transactions_in_multiple_attempts": 0,
+    "n_pattern_transactions_unmatched": 0,
+    "n_rows_with_typology": 3209,
+    "n_laundering_rows_without_typology": 1968,
+    "n_typology_rows_labelled_licit": 0
+  },
+  "split_boundaries": {
+    "quantiles": [
+      0.7,
+      0.85
+    ],
+    "cut_train": "2022-09-07 14:55:00",
+    "cut_val": "2022-09-09 03:16:00"
+  },
+  "blocks": {
+    "train": {
+      "n_records": 3554957,
+      "n_laundering": 2856,
+      "first": "2022-09-01 00:00:00",
+      "last": "2022-09-07 14:55:00",
+      "share_records": 0.7,
+      "ratio_1_in": 1244.7
+    },
+    "val": {
+      "n_records": 761749,
+      "n_laundering": 760,
+      "first": "2022-09-07 14:56:00",
+      "last": "2022-09-09 03:16:00",
+      "share_records": 0.15,
+      "ratio_1_in": 1002.3
+    },
+    "test": {
+      "n_records": 761639,
+      "n_laundering": 1561,
+      "first": "2022-09-09 03:17:00",
+      "last": "2022-09-18 16:18:00",
+      "share_records": 0.15,
+      "ratio_1_in": 487.9
+    }
+  },
+  "environment": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "pyarrow": "23.0.1"
+  },
+  "runtime_seconds": 40.3
+}

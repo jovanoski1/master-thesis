@@ -1,0 +1,151 @@
+{
+  "variant": "LI-Small",
+  "n_rows": 6924049,
+  "n_burn_in_rows": 1524807,
+  "n_training_rows_after_burn_in": 3322176,
+  "tail": {
+    "last_regular_day": "2022-09-10",
+    "n_rows": 223,
+    "n_laundering": 134,
+    "blocks": {
+      "test": 223
+    }
+  },
+  "n_columns": {
+    "A": 43,
+    "B": 14,
+    "C": 16
+  },
+  "set_sizes_after_screening": {
+    "A": 25,
+    "B": 39,
+    "C": 55
+  },
+  "screening": {
+    "threshold": 0.95,
+    "n_rows": 1000000,
+    "n_candidates": 73,
+    "constant": [
+      "fmt=Reinvestment"
+    ],
+    "redundant": {
+      "amount_received_base": {
+        "duplicates": "amount_paid_base",
+        "abs_rho": 1.0
+      },
+      "cur_rec=Australian_Dollar": {
+        "duplicates": "cur_pay=Australian_Dollar",
+        "abs_rho": 0.9899
+      },
+      "cur_rec=Bitcoin": {
+        "duplicates": "cur_pay=Bitcoin",
+        "abs_rho": 0.9927
+      },
+      "cur_rec=Brazil_Real": {
+        "duplicates": "cur_pay=Brazil_Real",
+        "abs_rho": 0.9906
+      },
+      "cur_rec=Canadian_Dollar": {
+        "duplicates": "cur_pay=Canadian_Dollar",
+        "abs_rho": 0.9863
+      },
+      "cur_rec=Euro": {
+        "duplicates": "cur_pay=Euro",
+        "abs_rho": 0.9789
+      },
+      "cur_rec=Mexican_Peso": {
+        "duplicates": "cur_pay=Mexican_Peso",
+        "abs_rho": 0.9889
+      },
+      "cur_rec=Ruble": {
+        "duplicates": "cur_pay=Ruble",
+        "abs_rho": 0.9904
+      },
+      "cur_rec=Rupee": {
+        "duplicates": "cur_pay=Rupee",
+        "abs_rho": 0.989
+      },
+      "cur_rec=Saudi_Riyal": {
+        "duplicates": "cur_pay=Saudi_Riyal",
+        "abs_rho": 0.9909
+      },
+      "cur_rec=Shekel": {
+        "duplicates": "cur_pay=Shekel",
+        "abs_rho": 0.9892
+      },
+      "cur_rec=Swiss_Franc": {
+        "duplicates": "cur_pay=Swiss_Franc",
+        "abs_rho": 0.9894
+      },
+      "cur_rec=UK_Pound": {
+        "duplicates": "cur_pay=UK_Pound",
+        "abs_rho": 0.9736
+      },
+      "cur_rec=US_Dollar": {
+        "duplicates": "cur_pay=US_Dollar",
+        "abs_rho": 0.97
+      },
+      "cur_rec=Yen": {
+        "duplicates": "cur_pay=Yen",
+        "abs_rho": 0.987
+      },
+      "cur_rec=Yuan": {
+        "duplicates": "cur_pay=Yuan",
+        "abs_rho": 0.9722
+      },
+      "fmt=Bitcoin": {
+        "duplicates": "cur_pay=Bitcoin",
+        "abs_rho": 0.9998
+      }
+    },
+    "n_kept": 55
+  },
+  "fx": {
+    "n_currencies": 15,
+    "methods": {
+      "implied rate": 15
+    },
+    "max_pair_iqr_log_rate": 0.3048663093269395
+  },
+  "snapshots": {
+    "n": 16,
+    "rows_without_snapshot": 1524807
+  },
+  "verification": {
+    "set_b": {
+      "n_rows": 2000,
+      "max_relative_error": {
+        "src_out_cnt": 0.0,
+        "src_out_sum": 5.780829670455134e-08,
+        "src_out_mean_log": 5.822776275894253e-08,
+        "src_out_std_log": 7.539457556049456e-07,
+        "src_out_n_cp": 0.0,
+        "dst_in_cnt": 0.0,
+        "dst_in_sum": 5.901678159889799e-08,
+        "dst_in_mean_log": 5.883881732190993e-08,
+        "dst_in_std_log": 5.907277945273154e-08,
+        "dst_in_n_cp": 0.0,
+        "src_in_share": 2.8233779092445843e-08,
+        "dst_in_share": 2.781550090258378e-08,
+        "src_hours_since_prev": 5.540016777278097e-08,
+        "dst_hours_since_prev": 5.540016777278097e-08
+      },
+      "passed": true
+    },
+    "set_c": {
+      "n_rows_checked": 397,
+      "n_mismatches": 0,
+      "examples": [],
+      "passed": true
+    },
+    "snapshots_use_only_earlier_edges": true
+  },
+  "timing_seconds": {
+    "set_a": 3.7,
+    "set_b": 114.8,
+    "set_c": 104.3,
+    "verification": 3.2,
+    "write": 17.0,
+    "total": 260.5
+  }
+}

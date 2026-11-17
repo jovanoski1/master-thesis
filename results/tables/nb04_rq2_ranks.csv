@@ -1,0 +1,11 @@
+variant,family,A,B,C
+HI-Small,ffnn,3.0,1.0,2.0
+HI-Small,hgb,3.0,2.0,1.0
+HI-Small,logreg,2.0,3.0,1.0
+HI-Small,rf,3.0,1.0,2.0
+HI-Small,svm,2.0,1.0,3.0
+LI-Small,ffnn,3.0,2.0,1.0
+LI-Small,hgb,3.0,1.0,2.0
+LI-Small,logreg,3.0,1.0,2.0
+LI-Small,rf,3.0,2.0,1.0
+LI-Small,svm,3.0,1.0,2.0

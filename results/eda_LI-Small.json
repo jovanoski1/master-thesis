@@ -1,0 +1,49 @@
+{
+  "variant": "LI-Small",
+  "first": "2022-09-01 00:00:00",
+  "last": "2022-09-17 15:28:00",
+  "span_days": 16.644,
+  "window_truncated_share": {
+    "1D": 0.2202,
+    "7D": 0.7353,
+    "30D": 1.0
+  },
+  "snapshot_coverage": {
+    "12h": {
+      "n_snapshots": 33,
+      "share_without_snapshot": {
+        "train": 0.2011,
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    "1D": {
+      "n_snapshots": 16,
+      "share_without_snapshot": {
+        "train": 0.3146,
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    "7D": {
+      "n_snapshots": 2,
+      "share_without_snapshot": {
+        "train": 1.0,
+        "val": 0.2354,
+        "test": 0.0
+      }
+    }
+  },
+  "account_seen_before_share": {
+    "src_account": {
+      "train": 0.8769,
+      "val": 0.9991,
+      "test": 0.999
+    },
+    "dst_account": {
+      "train": 0.8937,
+      "val": 0.9997,
+      "test": 0.9998
+    }
+  }
+}

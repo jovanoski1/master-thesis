@@ -1,0 +1,7 @@
+variant,set,features,zero coefficients,l1_ratio
+HI-Small,A,25,10,0.5
+HI-Small,B,39,0,0.0
+HI-Small,C,55,0,0.0
+LI-Small,A,25,13,1.0
+LI-Small,B,39,19,0.5
+LI-Small,C,55,0,0.0
